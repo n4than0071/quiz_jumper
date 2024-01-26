@@ -69,9 +69,16 @@ main div input{
         margin-top: 45%;
     }
 }
+/*responsividade*/
 
-@media only screen and (min-width: 910px max-width: 1010){
+@media only screen and (min-width: 750px){
     main{
-        margin-top: 50%;
+        margin-top: 45%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-device-width:1200px) and (orientation: landscape){
+    main{
+        margin-top: 15%;
     }
 }
