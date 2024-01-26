@@ -9,7 +9,6 @@ main{
 main div{
     margin-top: 5%;
     width: 85%;
-    height: 160px;
     border: none;
     border-radius: 35px;
     background-color: #e0ff00;
@@ -34,3 +33,45 @@ main div input{
     font-weight: 500;
 }
 
+/*resposividade*/
+
+@media only screen and (max-width:  380px){
+    main{
+        margin-top: 50%;
+    }
+}
+@media only screen and (max-width:  420px) {
+    main{
+        margin-top: 75%;
+    }
+}
+
+@media only screen and (max-width:  435px){
+    main{
+        margin-top: 75%;
+    }
+}
+
+@media only screen and (min-width: 580px){
+    main{
+        margin-top: 78%;
+    }
+}
+
+@media only screen and (min-width: 650px){
+    main{
+        margin-top: 60%;
+    }
+}
+
+@media only screen and (min-width: 750px){
+    main{
+        margin-top: 45%;
+    }
+}
+
+@media only screen and (min-width: 910px max-width: 1010){
+    main{
+        margin-top: 50%;
+    }
+}
